@@ -1,0 +1,24 @@
+{
+    "name": "filcpress/installer",
+    "description": "FilcPress application installer.",
+    "keywords": ["filcpress"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Allan Tatter",
+            "email": "allan.tatter@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "FilcPress\\Installer\\Console\\": "src/"
+        }
+    },
+    "require": {
+        "symfony/console": "~2.3|~3.0",
+        "symfony/process": "~2.3|~3.0"
+    },
+    "bin": [
+        "filcpress"
+    ]
+}
